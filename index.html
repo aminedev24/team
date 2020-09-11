@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/mobilepf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  -->
+</head>
+<body>
+    <div class="container" id="container">
+        <a href="home.html" id="logo">Team</a>
+        <div class="notifs">
+            <div class="dropdown">
+                <span id='dropbtn' class="bell dropbtn"><i class="fa dropbtn">&#xf0f3;</i></span><span class="num"></span>
+                <div id="myDropdown" class="dropdown-content">
+                  <div class="notifPrs">
+                    <p class="nopr">There are no notifications</p>
+                  </div>  
+              
+                  <!--<a class="link" href="#"><img class="notifImg" src="" alt="notifImage"></a>-->
+                </div>
+              </div>
+        </div> 
+        <div class="search-container"> 
+        <input type="search" class="user search" placeholder="Search team">
+        <button class="search-icon">
+            <span>&#9906;</span>
+        </button>
+        <!--<button type="submit"><i class="fa fa-search"></i></button>-->
+        </div>
+
+    </div>
+<section class="left-nav">
+    <div class="profile">
+        <div class="details"><img src="images/default.jpg" alt="profile picture" class="sidenav-cnt profile_image"> &nbsp; <h4 class="name">Abdennour</h4><h3 id="change">change profile</h3></div>
+        <input type="file" id="inChange" style="display: none;">
+        <button id="save">save</button>
+        <button id="reset">reset</button>
+        <div class="sidenav">
+            <h5>your activities will appear here</h5>
+        </div>
+        
+
+    </div>
+</section>
+
+<section class="main">
+    <div class="post-container">
+        <!--<input type="text" placeholder="What's on your mind?" id="postinput" class="postinput &#10;">-->
+        <h4>Create a post</h4>
+        
+       
+       
+       <div class="post-content">
+         
+       
+       <div class="contents">
+        <textarea placeholder="What are you thinking?" id="area"></textarea>
+        <div class="extra"><button id="photo/video">Photo/Video</button><input type="file" id="up-btn" hidden='hidden' accept="image/*,.png,.jpg"></div>
+        <button id="submit">Post</button>
+        <div id="previewBox">
+            <img id="img-preview" src="" alt="" width="111px">
+        </div>
+        </div>
+        
+       
+      
+        <div id="posts"></div>
+        
+        <div id='modal'>
+            <p class='close'>X</p>
+            <img class='modalImage imgpost' src="">
+            <div class='modalTitle'><h4>this is a modal</h4></div>
+            </div>
+        <!--    <div class="commentBox">
+            <input type="text" placeholder="write your comment here">
+        </div>-->
+     
+       </div>
+
+
+    
+    <!--  
+          <div class="profile">
+            <div class="details"><img src="default.jpg" alt="profile picture" width="60" height="55" class="profile_image"> &nbsp; <h4>Abdennour</h4></div>
+            
+            <ul id="message">
+                
+            </ul>
+            
+           </div>
+
+       </div>
+
+       -->
+</section>
+
+<section class="right">
+    <span id="words"></span>
+    <input id="number" type="text" />
+    
+</section>
+
+
+
+
+</body>
+<script src="js/home.js"></script>
+<script src="js/mobile.js"></script>
+<script src="js/toWord.js"></script>
+<script src="js/sidenav.js"></script>
+
+</html>
