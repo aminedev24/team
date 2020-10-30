@@ -1,1 +1,154 @@
 
+.items1{
+display: none;
+}
+
+.user {
+margin-top: 18px;
+}
+body{
+margin: 0;
+padding: 0;
+background-color: lightgrey;
+/* background: url(social-media.jpg); */
+background-size: cover;
+background-position: left;
+}
+.container{
+background-color: cadetblue;
+height: 79px;
+display: flex;
+align-content: center;
+justify-content: flex-end;
+align-items: center;
+}
+
+
+
+
+.userinput{
+border: solid black 1px;
+padding: 4px;
+margin-top: 23px;
+position: relative;
+}
+
+#logo{
+float: left;
+position: relative;
+text-decoration: none;
+color: ghostwhite;
+font-size: 28px;
+margin: 8px;
+letter-spacing: 2px;
+border-bottom: solid antiquewhite;
+border-top: solid antiquewhite;
+margin-inline-end: auto;
+border-radius: 11px;
+box-shadow: 0 0 0px 0px #c53838;
+}
+
+#button{
+padding: 3px;
+color: white;
+background-color: darkslategrey;
+cursor: pointer;
+border: solid 1px;
+/* display: block; */
+float: right;
+margin: 2px;
+}
+
+.center{
+background-color: turquoise;
+position: absolute;
+visibility: hidden;
+
+
+}
+
+ul li {
+display:block;
+margin-bottom: 5px;
+}
+
+.label1{
+color: white;
+position: absolute;
+top: 11px;
+}
+
+#passf{
+position: relative;
+bottom: 13px;
+float: right;
+/* right: 45px; */
+color: white;
+}
+
+
+.reginput{
+padding: 5px;
+min-width: 225px;
+margin: 5px;
+}
+
+#email{
+margin-top: 5px;
+}
+
+#signup_btn {
+background-color:green;
+padding: 3px;
+margin-top: 15px;
+cursor:pointer;
+border: solid 1px brown;
+}
+
+#signup_btn:hover {
+background-color: darkseagreen;
+}
+
+
+footer {
+background-color: cadetblue;
+width: 100%;
+height: 46px;
+position: absolute;
+bottom: 0;
+display: flex;
+}
+
+footer #logo {
+font-size: 20px;
+margin: 0px 11px;
+align-self: center;
+} 
+
+#sign-up p {
+position: relative;
+max-width: 97%;
+border: solid thistle;
+}
+
+.sign-up {
+/* background-color: lightblue; */
+display: flex;
+justify-content: center;
+align-items: end;
+text-align: center;
+}
+
+#sign-up {
+margin-block-start: 83px;
+max-inline-size: min-content;
+/* background-color: aliceblue; */
+font-weight: bold;
+font-size: 14px;
+}
+
+#first {
+position: absolute;
+margin-block-start: -19px;
+font-weight: bold;
+}
