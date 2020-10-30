@@ -10,7 +10,8 @@ the post system where you can post text, text with image or image only just like
 
 2-notification system:
 
-whenever you click on the like button a notification apears 
+whenever you click on the like button or add a comment on the post a notification apears 
+
 
 3- profile change system
 
