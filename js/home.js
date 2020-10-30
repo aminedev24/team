@@ -335,9 +335,9 @@ function displayNotif(e, type) {
     if (type == true) {
         if (!post1.liked) {
             notifContainer = "<div class='notifContainer'>";
-            //pfClone = document.querySelector(".imgpf").cloneNode(true);
+            pfClone = document.querySelector(".imgpf").cloneNode(true);
             pfClone = document.querySelector(".profile_image").cloneNode(true)
-           // notifContainer += "<img src=" + pfClone.getAttribute("src") + " class='imgpf'>";
+            notifContainer += "<img src=" + pfClone.getAttribute("src") + " class='imgpf'>";
             nameClone = document.querySelector(".name").cloneNode(true);
             
             notifContainer += "<div>";
@@ -348,13 +348,13 @@ function displayNotif(e, type) {
 
         }
         container = document.querySelector('.notifContainer')
-        container.prepend(wrapperClone)
+        //container.prepend(wrapperClone)
         //console.log(post1);
     } else {
         if (!post1.liked) {
             notifContainer = "<div class='notifContainer'>";
-            //pfClone = document.querySelector(".imgpf").cloneNode(true);
-          //  notifContainer += "<img src=" + pfClone.getAttribute("src") + " class='imgpf'>";
+            pfClone = document.querySelector(".imgpf").cloneNode(true);
+            notifContainer += "<img src=" + pfClone.getAttribute("src") + " class='imgpf'>";
             nameClone = document.querySelector(".name").cloneNode(true);
             notifContainer += "<div>";
             notifContainer +=
@@ -648,7 +648,7 @@ function createElems(param, e) {
             default:
                 posts.childNodes[i].classList.add(i + 1);
                 postArr.push(posts.childNodes[i]);
-                console.log(postArr);
+                //console.log(postArr);
                 postObj = {
                     className: posts.childNodes[i].className,
                     post1: (post1.liked = null),
