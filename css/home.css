@@ -674,3 +674,7 @@
 .wrapper {
     display:none !important;
 }
+
+.user { 
+    margin-top:0px !important;
+}
