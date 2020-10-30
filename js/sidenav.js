@@ -3,16 +3,28 @@ canva = document.querySelector('canvas'),
 change = document.getElementById('change'),
 inChange = document.getElementById('inChange');
 
+
 if(canva == null && pfp != null){
     canva.onmouseover = function (){
     change.style.visibility = 'visible';
+        
+     canva.onmouseleave = function(){
+        change.style.visibility = '';
+        
+    }
+    }
 }else{
     
-    pfp.onmouseleave = function(){
+    pfp.onmouseover = function(){
+        change.style.visibility = 'visible';
+        
+    }
+    
+     pfp.onmouseleave = function(){
         change.style.visibility = '';
+        
     }
 }
-
 
 
         
