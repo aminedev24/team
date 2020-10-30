@@ -442,7 +442,7 @@
     right: -65px;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 134px;
+    min-width: 211px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -677,4 +677,13 @@
 
 .user { 
     margin-top:0px !important;
+}
+
+.notifContainer .imgpf {
+    width:40px;
+    height:37px;
+}
+
+.notifContainer .name{
+    color: black;
 }
