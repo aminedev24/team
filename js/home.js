@@ -287,7 +287,7 @@ function commentNotif(e) {
         nopr.remove();
     }
     var notifContainer = "<div class='notifContainer'>";
-    //pfClone = document.querySelector(".imgpf").cloneNode(true);
+    pfClone = document.querySelector(".imgpf").cloneNode(true);
    // notifContainer+= wrapperClone;
     notifContainer += "<img src=" + pfClone.getAttribute("src") + " class='imgpf'>";
     nameClone = document.querySelector(".name").cloneNode(true);
