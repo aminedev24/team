@@ -1,4 +1,4 @@
-//var pfp = document.querySelector('.profile_image'),
+var pfp = document.querySelector('.profile_image'),
 canva = document.querySelector('canvas'),
 change = document.getElementById('change'),
 inChange = document.getElementById('inChange');
