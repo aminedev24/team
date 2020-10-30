@@ -591,7 +591,7 @@ function checkAtt() {
 function createElems(param, e) {
    
     var post = "<div class='post'>";
-    //post += "<img src='images/default.jpg' class='imgpf'>";
+    post += "<img src='images/default.jpg' class='imgpf'>";
     
     post += "<span class='name'>"+name+"</span>";
     
