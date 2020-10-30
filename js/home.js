@@ -42,11 +42,12 @@ function createCanvas() {
     wrapperClone = wrapper.cloneNode(true);
     //console.log(wrapperClone)
 }
-
+/*
 window.onload = () => {
     createCanvas();
     getRandomColor();
 };
+*/
 bell.addEventListener("click", dropDown, false);
 //dropbtn.addEventListener("click", dropDown, false);
 var modal = document.getElementById("modal"),
@@ -421,10 +422,12 @@ var events = ["keyup", "mouseleave"];
 function selectElements(comments, modal) {
     post = document.querySelectorAll("div.post");
     menu = document.querySelectorAll("div.menu");
-
+    
+    /*
     post.forEach((post)=>{
         post.prepend(wrapperClone);
     })
+    */
     menu.forEach((menu) => {
         menu.addEventListener("click", postMenu, false);
     });
